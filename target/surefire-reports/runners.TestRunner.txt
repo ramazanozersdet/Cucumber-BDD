@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.531 s <<< FAILURE! - in runners.TestRunner
+runners.TestRunner.initializationError  Time elapsed: 0.009 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///Users/ramazanozer/git/Cucumber-BDD/src/test/resources/features/AddEmployee.feature
+(5:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Background:'
+(6:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When login with valid credentials'
+(7:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then navigate to add employee page'
+(10:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Scenario: Add employee without login details'
+(11:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And enter first and last name'
+(12:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then click on save Button'
+(13:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And verify the employee is added succesfully'
+(16:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Scenario: Add employee with login credentials'
+(17:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And enter first and last name'
+(18:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When check login details checkbox'
+(19:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then enter login details'
+
